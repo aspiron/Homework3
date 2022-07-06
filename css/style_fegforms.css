@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -193px;
+    margin-left: -195px;
+    font-family: sans-serif;
+}
+
+.form{
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 16px;
+    margin: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.form_title{
+    width: 100%;
+    margin: 15px 0;
+    padding-left: 10px;
+}
+
+.form_input{
+    width: 298px;
+    margin: 2px 0;
+    padding: 14px 18px;
+    border: 1px solid #CFD8DC;
+    border-radius: 15px;
+}
+
+.form_input:focus{
+    outline: none;
+    border-color: #FFE44D;
+    
+}
+
+.form_btn{
+  
+   width: 100%;
+    margin: 2px 0;
+    border-radius: 55px;
+    padding: 14px 24px;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+.check_terms{
+    display: flex;
+}
+
+.form_info_text{
+    margin: 15px 0;
+    padding-left: 10px;
+    font-size: 13px;
+    text-align: start;
+}
+
+.form_info_checkbox{
+    margin: 20px 10px;
+    padding-left: 10px;   
+    }
+
+.form_reset_password_text{
+    margin: 15px 0;
+    padding-right: 10px;
+    font-size: 13px;
+    color: gray;
+    padding-left: 10px;
+    text-align: center;
+    width: 350px;
+}
+
+.btn_reg{
+    background-color: #FFE44D;
+    border: 1px solid transparent;
+}
+
+.btn_login{
+    width: 300px;
+    background-color: white;
+    border: 1px solid #CFD8DC;
+    text-align: center;
+    color: black;
+}
+
+.form_xmark{
+position: absolute;
+top: 20px;
+right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #CFD8DC;
+    cursor: pointer;
+}
