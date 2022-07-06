@@ -101,8 +101,29 @@ top: 20px;
 right: 20px;
 }
 
+input:hover{
+    transform: translateX(10px);
+}
+
 a{
     text-decoration: none;
-    color: #CFD8DC;
     cursor: pointer;
+}
+
+h2, p{
+    color: #0000;
+    background: 
+    linear-gradient(90deg,#1095c1 50%,#000 0) 
+    var(--_p,100%)/200% no-repeat;
+  -webkit-background-clip: text;
+          background-clip: text;
+  transition: .5s; 
+}
+
+p:hover{
+    --_p: 0%;
+}
+
+h2:hover{
+    --_p: 0%;
 }
